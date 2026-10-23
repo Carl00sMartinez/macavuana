@@ -1,0 +1,6 @@
+﻿.metadata/
+Servers/
+apache-tomcat-*/
+*.class
+*.tmp
+*.~m2

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- 
+    404 Found       "¿Error 404? ¡Solución encontrada!"
+    
+    Italia Zoé Barrón Reyes
+    2223028502
+    italia.barron@cua.uam.mx
+    
+    Carlos Alberto Martínez Arévalo
+    2223028351
+    carlos.martinez@cua.uam.mx
+    
+    Desarrollo de aplicaciones web - Hugo Pablo Leyva
+    27/09/2026
+ -->
+
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/css/*</pattern>
+        <pattern>/img/*</pattern>
+        <pattern>/decorators/*</pattern>
+    </excludes>
+
+    <decorator name="main" page="main.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    
+</decorators>

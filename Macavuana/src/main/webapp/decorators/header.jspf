@@ -1,0 +1,47 @@
+<%-- 
+  404 Found       "¿Error 404? ¡Solución encontrada!"
+    
+    Italia Zoé Barrón Reyes
+    2223028502
+    italia.barron@cua.uam.mx
+    
+    Carlos Alberto Martínez Arévalo
+    2223028351
+    carlos.martinez@cua.uam.mx
+    
+    Desarrollo de aplicaciones web - Hugo Pablo Leyva
+    27/09/2026
+--%>
+<table border="0" cellspacing="0" cellpadding=0 width="100%" >
+  <tr>
+    <td align="center" width="160">
+      <img src="<%=request.getContextPath()%>/img/logo_sf.png"
+         height="158" width="158">
+    </td>
+
+    <td width="15"></td>
+
+    <td align="center" valign="middle" width="625" height="40">
+      <h1 class="title">Calzado Artesanal Macavuana</h1>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"></td>
+    <td align="center" class="toolbar">
+      <a href="http://www.instructores.azc.uam.mx">Principal</a>
+      | <a HREF="http://www.instructores.azc.uam.mx/mision.html">Misión</a>
+      | <a HREF="http://www.instructores.azc.uam.mx/vision.html">Visión</a>
+      | <a HREF="http://www.instructores.azc.uam.mx/casosexito.html">Historia</a>
+      | <a HREF="http://www.instructores.azc.uam.mx/contacto.html">Contactanos</a>
+    </td>
+  </tr>
+
+  <tr>
+      <td colspan="2"></td>
+      <td align="center" valign="middle" width="625" height="10"><img
+        src="<%=request.getContextPath()%>/img/bar.png"
+        height="5" width="625"></td>
+  </tr>
+
+</table>
