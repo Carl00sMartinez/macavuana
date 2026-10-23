@@ -39,4 +39,14 @@
 								<filter-name>PageFilter</filter-name>
 								<url-pattern>/*</url-pattern>
 				</filter-mapping>
+				<servlet>
+								<description>servlet para actualizar la lista de clientes</description>
+								<display-name>ClienteUpdate</display-name>
+								<servlet-name>ClienteUpdate</servlet-name>
+								<servlet-class>mx.uam.cua.cuatrocerocuatrofound.macavuana.controller.ClienteUpdateServlet</servlet-class>
+				</servlet>
+				<servlet-mapping>
+								<servlet-name>ClienteUpdate</servlet-name>
+								<url-pattern>/ClienteUpdate</url-pattern>
+				</servlet-mapping>
 </web-app>
